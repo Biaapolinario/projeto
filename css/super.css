@@ -1,0 +1,43 @@
+/* resetar as configurações do navegador */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* personagem */
+
+ body 
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+
+}
+
+button 
+{
+    margin: 6em auto;
+    margin-right: 2em;
+    cursor: pointer;
+    padding: 2em;
+    min-width: 10em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #f8f3f8;
+    border: .25em solid rgb(29, 1, 90);
+    border-radius: 2em;
+    color: rgb(134, 101, 157);
+
+}
+
+.on {
+    background-color: darkmagenta;
+}
+.off {
+        background-color: #444;
+    }
